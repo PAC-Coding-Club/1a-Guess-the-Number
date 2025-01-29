@@ -1,10 +1,9 @@
 import random
 
-print("Im thinking of a number between 0-100, "
-      "try guess it and ill let you know if your guess was too low or too high.")
-
 number = random.randint(0, 100)
-userInput = None
+
+userInput = None  # This is set before the while loop because it is used in the while loop calculation
+# A while loop is introduced to repeat all indented lines until the condition is met.
 while not userInput == number:
     userInput = int(input())
     if userInput > number:
