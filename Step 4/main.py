@@ -10,4 +10,3 @@ while not userInput == number:
         print("Your guess was too HIGH")
     elif userInput < number:
         print("Your guess was too LOW")
-print("Well done! The number was %d" % number)
